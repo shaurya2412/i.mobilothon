@@ -1,0 +1,153 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app {
+    width: 600px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    padding: 20px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Alert styles */
+  .alert-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .alert-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+  }
+  
+  .icon.red {
+    color: #ef4444;
+  }
+  
+  .icon.yellow {
+    color: #f59e0b;
+  }
+  
+  .icon.blue {
+    color: #3b82f6;
+  }
+  
+  .icon.green {
+    color: #10b981;
+  }
+  
+  .alert-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .machine-name {
+    font-weight: 600;
+  }
+  
+  .alert-message {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .timestamp {
+    font-size: 0.75rem;
+    color: #9ca3af;
+  }
+  
+  .alert-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: capitalize;
+  }
+  
+  .badge.critical {
+    background-color: #fee2e2;
+    color: #ef4444;
+  }
+  
+  .badge.warning {
+    background-color: #fef3c7;
+    color: #f59e0b;
+  }
+  
+  .badge.info {
+    background-color: #dbeafe;
+    color: #3b82f6;
+  }
+  
+  .badge.success {
+    background-color: #d1fae5;
+    color: #10b981;
+  }
+  
+  .dismiss-button {
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
