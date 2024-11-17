@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { DollarSign, Users, ShoppingBag, Eye, ArrowDownRight, ArrowUpRight } from "lucide-react";
 
 const overviewData = [
-	{ name: "Revenue", value: "$1,234,567", change: 12.5, icon: DollarSign },
-	{ name: "Users", value: "45,678", change: 8.3, icon: Users },
-	{ name: "Orders", value: "9,876", change: -3.2, icon: ShoppingBag },
-	{ name: "Page Views", value: "1,234,567", change: 15.7, icon: Eye },
+	{ name: "Vehicle Efficiency", value: "94%", change: 8.5, icon: DollarSign },
+	{ name: "Engine Performance", value: "45,678", change: 8.3, icon: Users },
+	{ name: "Tyre Wear", value: "10", change: -3.2, icon: ShoppingBag },
+	{ name: "Overall Mileage", value: "12.153", change: 4.7, icon: Eye },
 ];
 
 const OverviewCards = () => {

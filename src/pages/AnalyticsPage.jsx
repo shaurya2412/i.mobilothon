@@ -7,6 +7,7 @@ import ProductPerformance from "../components/analytics/ProductPerformance";
 import UserRetention from "../components/analytics/UserRetention";
 import CustomerSegmentation from "../components/analytics/CustomerSegmentation";
 import AIPoweredInsights from "../components/analytics/AIPoweredInsights";
+import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 
 const AnalyticsPage = () => {
 	return (
@@ -16,12 +17,13 @@ const AnalyticsPage = () => {
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
 				<OverviewCards />
 				<RevenueChart />
+				<CategoryDistributionChart/>
 
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
-					<ChannelPerformance />
-					<ProductPerformance />
-					<UserRetention />
-					<CustomerSegmentation />
+					{/* <ChannelPerformance />
+					<ProductPerformance /> */}
+					{/* <UserRetention />
+					<CustomerSegmentation /> */}
 				</div>
 
 				<AIPoweredInsights />

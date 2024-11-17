@@ -14,7 +14,7 @@ import RevenueChart from "../components/analytics/RevenueChart";
 const OverviewPage = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10'>
-			<Header title='Overview' />
+			<Header title='i.mobiliothon 4.0' />
 
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
 				{/* STATS */}
@@ -40,7 +40,6 @@ const OverviewPage = () => {
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
 					<RevenueChart />
 					<CategoryDistributionChart />
-					<SalesChannelChart />
 				</div>
 			</main>
 		</div>

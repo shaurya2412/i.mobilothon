@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 
 const userData = [
-	{ id: 1, name: "S Doe", email: "john@example.com", role: "Customer", status: "Active" },
-	{ id: 2, name: "Jane Smith", email: "jane@example.com", role: "Admin", status: "Active" },
-	{ id: 3, name: "Bob Johnson", email: "bob@example.com", role: "Customer", status: "Inactive" },
-	{ id: 4, name: "Alice Brown", email: "alice@example.com", role: "Customer", status: "Active" },
-	{ id: 5, name: "Charlie Wilson", email: "charlie@example.com", role: "Moderator", status: "Active" },
+	{ id: 1, name: "Front_wiper", Status: "Wiper not working", Date: "2023-06-10", status: "Critical" },
+	{ id: 1, name: "Service", Status: "Service due", Date: "2024-11-19 ", status: "Active" },
+	{ id: 1, name: "Cruise Control", Status: "Cruise Control not Working", Date: "2024-02-10 ", status: "Critical" },
+	{ id: 1, name: "Wheel", Status: "Alignment Required", Date: "2023-06-19", status: "Active" },
+	{ id: 1, name: "Rpm", Status: "Higher Rpm meter", Date: "2023-06-10 ", status: "Critical" },
 ];
 
 const UsersTable = () => {
@@ -31,7 +31,8 @@ const UsersTable = () => {
 			transition={{ delay: 0.2 }}
 		>
 			<div className='flex justify-between items-center mb-6'>
-				<h2 className='text-xl font-semibold text-gray-100'>Users</h2>
+				<h2 className='text-xl font-semibold text-gray-100'>
+				System notifications and warnings</h2>
 				<div className='relative'>
 					<input
 						type='text'
@@ -52,10 +53,10 @@ const UsersTable = () => {
 								Name
 							</th>
 							<th className='px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider'>
-								Email
+							Information
 							</th>
 							<th className='px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider'>
-								Role
+								Date
 							</th>
 							<th className='px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider'>
 								Status
@@ -88,11 +89,11 @@ const UsersTable = () => {
 								</td>
 
 								<td className='px-6 py-4 whitespace-nowrap'>
-									<div className='text-sm text-gray-300'>{user.email}</div>
+									<div className='text-sm text-gray-300'>{user.Status}</div>
 								</td>
 								<td className='px-6 py-4 whitespace-nowrap'>
 									<span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-800 text-blue-100'>
-										{user.role}
+										{user.Date}
 									</span>
 								</td>
 

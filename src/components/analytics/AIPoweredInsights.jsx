@@ -5,22 +5,22 @@ const INSIGHTS = [
 	{
 		icon: TrendingUp,
 		color: "text-green-500",
-		insight: "Revenue is up 15% compared to last month, driven primarily by a successful email campaign.",
+		insight: "Overall efficiency is up 15% compared to last month, driven primarily by a successful engine tuning campaign.",
 	},
 	{
 		icon: Users,
 		color: "text-blue-500",
-		insight: "Customer retention has improved by 8% following the launch of the new loyalty program.",
+		insight: "Customer retention has improved by 8% following the launch of the new ai chat-bot program.",
 	},
 	{
 		icon: ShoppingBag,
 		color: "text-purple-500",
-		insight: 'Product category "Electronics" shows the highest growth potential based on recent market trends.',
+		insight: 'Product category "engine" shows the highest growth potential based on recent breakdown trends.',
 	},
 	{
 		icon: DollarSign,
 		color: "text-yellow-500",
-		insight: "Optimizing pricing strategy could potentially increase overall profit margins by 5-7%.",
+		insight: "Optimizing air filters strategy could potentially increase overall mileage by 5-7%.",
 	},
 ];
 
